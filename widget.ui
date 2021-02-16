@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>492</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Widget</string>
+  </property>
+  <widget class="QWidget" name="gridLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>451</width>
+     <height>461</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="createEnigmaBtn">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>490</y>
+     <width>131</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string>程序生成的谜题，至少有一个解</string>
+   </property>
+   <property name="text">
+    <string>自动生成谜题</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="showAnswerBtn">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>540</y>
+     <width>131</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string>按下后，程序将自动为您填充数字解答</string>
+   </property>
+   <property name="text">
+    <string>查看局面的解法</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="clearAllBtn">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>490</y>
+     <width>131</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string>按下后，局面的所有数字将被擦除掉！</string>
+   </property>
+   <property name="text">
+    <string>清空局面</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_4">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>540</y>
+     <width>131</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>PushButton</string>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
