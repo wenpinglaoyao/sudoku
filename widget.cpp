@@ -12,6 +12,10 @@ Widget::Widget(QWidget *parent) :
     for(int row=0; row<9; row++)
         for(int col=0; col<9; col++)
         {
+            if(row/3 %2 == col/3%2)
+                _btn[row][col].setStyleSheet("background-color: rgb(0,200,200)");
+            else
+                _btn[row][col].setStyleSheet("background-color: rgb(200,200,0)");
             _btn[row][col].setFixedSize(50,50);
             QFont font(nullptr,40);
             _btn[row][col].setFont(font);
