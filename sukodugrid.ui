@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>Form</class>
- <widget class="QWidget" name="Form">
+ <class>SukoduGrid</class>
+ <widget class="QWidget" name="SukoduGrid">
   <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>201</width>
-    <height>255</height>
+    <width>336</width>
+    <height>338</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -16,33 +16,31 @@
   <widget class="QWidget" name="gridLayoutWidget">
    <property name="geometry">
     <rect>
-     <x>9</x>
-     <y>9</y>
-     <width>181</width>
-     <height>181</height>
+     <x>10</x>
+     <y>10</y>
+     <width>311</width>
+     <height>271</height>
     </rect>
    </property>
    <layout class="QGridLayout" name="gridLayout"/>
   </widget>
-  <widget class="QPushButton" name="clearNumBtn">
+  <widget class="QPushButton" name="ClearNum">
    <property name="geometry">
     <rect>
-     <x>10</x>
-     <y>192</y>
-     <width>181</width>
+     <x>40</x>
+     <y>292</y>
+     <width>241</width>
      <height>41</height>
     </rect>
    </property>
    <property name="font">
     <font>
-     <family>Aharoni</family>
-     <pointsize>16</pointsize>
-     <weight>75</weight>
-     <bold>true</bold>
+     <family>Arial</family>
+     <pointsize>24</pointsize>
     </font>
    </property>
    <property name="text">
-    <string>擦除当前块的数字</string>
+    <string>擦除数字</string>
    </property>
   </widget>
  </widget>
